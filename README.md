@@ -122,6 +122,27 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 
 <br>
 
+>## Contact Me
+
+- Luyi1720839132@Gmail.com
+- https://t.me/Kirisame_Marisa
+
+Additional used resources: 
+
+- [dortania's Hackintosh guides](https://github.com/dortania)
+- [dortania/ Getting Started with ACPI](https://dortania.github.io/Getting-Started-With-ACPI/)
+- [dortania/ opencore `desktop` guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
+- [dortania/ opencore `multiboot`](https://github.com/dortania/OpenCore-Multiboot)
+- [dortania/ `USB map` guide](https://github.com/dortania/USB-Map-Guide)
+- [Daliansky's `Hackintool tutorial`](https://translate.google.com/translate?js=n&sl=auto&tl=en&u=https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html).
+- [OpenCore Sanity Checker](opencore.slowgeek.com)
+- [Adapting `DW1820A` Wireless Card](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)
+- [Basic UEFI Patch Reference](https://www.tonymacx86.com/threads/x99-catalina-pci-cards-not-working.309236/)
+- [`AppleUSBXHCI` Error Fix](https://www.tonymacx86.com/threads/how-to-extend-the-imac-pro-to-x99-successful-build-extended-guide.227001/page-86)
+- [X99 Platform Hackintosh Guide (!Chinese)](https://www.chiphell.com/thread-2174588-1-1.html)
+- [AMD dGPU vBIOS Patch Guide](http://forum.netkas.org/index.php/topic,5619.0.html)
+- [`HD7970` UEFI vBIOS Patch Guide (!Chinese)](https://bbs.nga.cn/read.php?tid=18588213&rand=628)
+- [AMD dGPU vBIOS Flash Guide (!Chinese)](https://www.chiphell.com/thread-347172-1-1.html)
 
 
 
