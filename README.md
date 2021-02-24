@@ -33,7 +33,7 @@ GeekBench5 Score: Single `643`, Multi-Core `7953`.
 | Fully functional | Non-functional | Semi-functional |
 | ---------------- | -------------- | ------------------------------------------------------ |
 | Native Power Management & Hibernation | - | - |
-| Wi-Fi, Bluetooth, Apple Continuity Functions, iCloud Suite(Generate your own SMBIOS information) *Network Card Replacement (DW1820A) Needed               |  SideCar (it need iGPU or T2 Chip, cannot fix on Broadwell-E platforms)   | -  |
+| Wi-Fi, Bluetooth, Apple Continuity Functions, iCloud Suite(Generate your own SMBIOS information) <br> **!!A compatible network card is needed!!**               |  SideCar (it need iGPU or T2 Chip, cannot fix on X99 platforms)   | -  |
 | USB-A 3.0/2.0 Ports, Ethernet, On-board Audio, SATA Drives               | -  | - | - |
 
 <br>
@@ -105,15 +105,17 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 
 2. Use [Balena Etcher](https://www.balena.io/etcher/) to flash the `.dmg` file into your USB disk. 
 
-3. Mount the EFI partition of the USB disk, replace the entire `EFI` Folder with `EFI-Install`. 
+3. Choose the correct  `PMDrvr-xxxxplatform.kext`, and rename it to `PMDrvr.kext`. 
 
-4. Enter BIOS, and change BIOS settings according to the instructions above.
+4. Mount the EFI partition of the USB disk, replace the entire `EFI` Folder with `EFI-Install`. 
 
-5. Reboot and install macOS 10.15.6 Catalina. 
+5. Enter BIOS, and change BIOS settings according to the instructions above.
 
-6. Put `/EFI-Opencore/OC` to `"Your SSD's EFI Partition"/EFI`. 
+6. Reboot and install macOS 10.15.6 Catalina. 
 
-7. Inject your SMBIOS info, do further implementations to the hardware which is different than mine. 
+7. Put `/EFI-Opencore/OC` to `"Your SSD's EFI Partition"/EFI`. 
+
+8. Inject your SMBIOS info, do further implementations to the hardware which is different than mine. 
 
 <br>
 
@@ -127,7 +129,7 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 - [ ] Implement Proper USB Configurations
 - [x] Test Sleep/Hibernation Feature
 - [ ] Fix Memory Slot Information
-- [ ] Further Polish OC patch, remove invisible errors in bootlog
+- [x] Further Polish OC patch, remove invisible errors in bootlog
 
 <br>
 
