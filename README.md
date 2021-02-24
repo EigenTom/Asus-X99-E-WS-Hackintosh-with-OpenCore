@@ -32,14 +32,20 @@ GeekBench5 Score: Single `643`, Multi-Core `7953`.
 
 | Fully functional | Non-functional | Semi-functional |
 | ---------------- | -------------- | ------------------------------------------------------ |
-| Native Power Management (Applied E5 V3 Boost fix, no need to implement)| Sleep(Cannot test with system running on external SSD) | - |
+| Native Power Management & Hibernation | - | - |
 | Wi-Fi, Bluetooth, Apple Continuity Functions, iCloud Suite(Generate your own SMBIOS information) *Network Card Replacement (DW1820A) Needed               |  SideCar (it need iGPU or T2 Chip, cannot fix on Broadwell-E platforms)   | -  |
 | USB-A 3.0/2.0 Ports, Ethernet, On-board Audio, SATA Drives               | -  | - | - |
 
 <br>
 
+![20210224221128](https://cdn.jsdelivr.net/gh/KirisameMarisaa/KirisameMarisaa.github.io/img/blogpost_images/20210224221128.png)
+
+<br>
+
 >## Update History
 - Ver 0.0.1 Initial Release, 22/02/21
+
+- Ver 0.0.2 Implemented Full Hibernation & XCPM Power Management, 24/02/21
 
 <br>
 
@@ -116,7 +122,7 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 - [x] Drive up On-Board Sensors
 - [x] Drive Bluetooth/Wi-Fi Card
 - [ ] Implement Proper USB Configurations
-- [ ] Test Sleep/Hibernation Feature
+- [x] Test Sleep/Hibernation Feature
 - [ ] Fix Memory Slot Information
 - [ ] Further Polish OC patch, remove invisible errors in bootlog
 
