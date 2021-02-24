@@ -152,6 +152,7 @@ Additional used resources:
 - [AMD dGPU vBIOS Patch Guide](http://forum.netkas.org/index.php/topic,5619.0.html)
 - [`HD7970` UEFI vBIOS Patch Guide (!Chinese)](https://bbs.nga.cn/read.php?tid=18588213&rand=628)
 - [AMD dGPU vBIOS Flash Guide (!Chinese)](https://www.chiphell.com/thread-347172-1-1.html)
-
-
+- [Hibernation Fix (1)](https://pikeralpha.wordpress.com/2017/01/12/debugging-sleep-issues/)
+- [Hibernation Fix (2)](https://www.tonymacx86.com/threads/how-to-extend-the-imac-pro-to-x99-successful-build-extended-guide.227001/)
+- [XCPM Fix for X99](https://www.tonymacx86.com/threads/x99-macos-catalina-10-15-2-kernel-patches.288451/)
 
