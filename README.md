@@ -40,6 +40,9 @@ GeekBench5 Score: Single `643`, Multi-Core `7953`.
 
 ![20210224221128](https://cdn.jsdelivr.net/gh/KirisameMarisaa/KirisameMarisaa.github.io/img/blogpost_images/20210224221128.png)
 
+
+![20210224221634](https://cdn.jsdelivr.net/gh/KirisameMarisaa/KirisameMarisaa.github.io/img/blogpost_images/20210224221634.png)
+
 <br>
 
 >## Update History
