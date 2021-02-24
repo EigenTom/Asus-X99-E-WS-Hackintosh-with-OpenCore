@@ -25,6 +25,20 @@ GeekBench5 Score: Single `643`, Multi-Core `7953`.
 
 <br>
 
+![20210224223405](https://cdn.jsdelivr.net/gh/KirisameMarisaa/KirisameMarisaa.github.io/img/blogpost_images/20210224223405.png)
+
+<center>
+
+ [The result of this patch (Without E5 V3 Boost Patch):](https://browser.geekbench.com/v5/cpu/6670284)
+
+GeekBench5 Score: Single `848`, Multi-Core `7697`. 
+
+`14/14` Cores, Discarded E5 V3 Boost Patch, Multiplier `Auto`, Undervolt `0.070v`
+
+</center>
+
+<br>
+
 > ## SUMMARY:
 
 **`This Patch is stable on macOS 10.15.6, with most of the functions run smoothly. `**
@@ -64,12 +78,11 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 
 **Peripherals:**
 
-
 - Wireless Card: `Dell Wireless DW1820A`<br>
 - Ethernet: On Board Intel Ethernet Controllers
 - SSD: WD Black `SN720` NVMe SSD 
 - Memory: Kingston 4G DDR4 2400 *2, Kingston 8G Hyper-X DDR4 2133 *1, 16G in total, dual channel
-			
+
 <br>
 
 >## BIOS Settings Modifications
