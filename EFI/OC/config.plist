@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix issue: Qcode 19/30 when Recover from Hibernation </string>
+				<string>Fix issue: Qcode 19/30 when Recover from Hibernation</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -515,7 +515,7 @@
 				<key>model</key>
 				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
 				<key>name</key>
-				<string>Aieport</string>
+				<string>Airport</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -819,7 +819,7 @@
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
-				<string>USB Implementation Debug </string>
+				<string>USB Implementation Debug</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>

@@ -139,9 +139,9 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 - [x] Sanitize Config.plist
 - [x] Drive up On-Board Sensors
 - [x] Drive Bluetooth/Wi-Fi Card
-- [ ] Implement Proper USB Configurations
+- [x] Implement Proper USB Configurations
 - [x] Test Sleep/Hibernation Feature
-- [ ] Fix Memory Slot Information
+- [x] Fix Memory Slot Information (You need to do it by yourself following [this](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html))
 - [x] Further Polish OC patch, remove invisible errors in bootlog
 
 <br>
