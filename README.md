@@ -47,7 +47,7 @@ GeekBench5 Score: Single `848`, Multi-Core `7697`.
 | Fully functional | Non-functional | Semi-functional |
 | ---------------- | -------------- | ------------------------------------------------------ |
 | Native Power Management & Hibernation | - | - |
-| Wi-Fi, Bluetooth, Apple Continuity Functions, iCloud Suite(Generate your own SMBIOS information) <br> **!!A compatible network card is needed!!**               |  SideCar (it need iGPU or T2 Chip, cannot fix on X99 platforms)   | -  |
+| Wi-Fi, Bluetooth, Apple Continuity Functions, iCloud Suite(Generate your own SMBIOS information) <br> **!!A compatible network card is needed!!**               |  SideCar (Semi functional, see "misc")   | -  |
 | USB-A 3.0/2.0 Ports, Ethernet, On-board Audio, SATA Drives               | -  | - | - |
 
 <br>
@@ -151,7 +151,28 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 - Luyi1720839132@Gmail.com
 - https://t.me/Kirisame_Marisa
 
-Additional used resources: 
+<br>
+
+>## Misc
+
+After some investigations, I found a way to use iPad as your secondary display by performing some "dark magic":
+
+Normally, hackintosh without iGPU cannot output image through sidecar, that's why even if you can connect to the iPad, you will 100% get black screen. The basic idea is to combine sidecar and a tool called [Deskscreen](https://deskreen.com). <br>We will use sidecar to mock up a secondary display and let the graphics card to output the display signal, and use Deskscreen to stream it to the iPad. 
+
+Although you can stream your desktop to the iPad theoretically, the quality is limited by the Wi-Fi bandwith and network condition. Usually there is noticeable lagging and low resolution. To solve this issue, we connect the iPad to the desktop, to let them establish a direct network connection firmly. 
+
+To use your iPad as a secondary display on hackintoshes based on X99 platform: 
+
+- Make sure you patched SMBIOS and Wi-Fi card correctly and you are able to connect your iPad through sidecar
+- Download [Deskscreen](https://deskreen.com) and install
+- Link your iPad to the desktop with charging cable
+- Open Deskscreen, stream the sidecar screen to the device
+
+
+
+<br>
+
+>## Additional used resources: 
 
 - [dortania's Hackintosh guides](https://github.com/dortania)
 - [dortania/ Getting Started with ACPI](https://dortania.github.io/Getting-Started-With-ACPI/)
@@ -170,4 +191,4 @@ Additional used resources:
 - [Hibernation Fix (1)](https://pikeralpha.wordpress.com/2017/01/12/debugging-sleep-issues/)
 - [Hibernation Fix (2)](https://www.tonymacx86.com/threads/how-to-extend-the-imac-pro-to-x99-successful-build-extended-guide.227001/)
 - [XCPM Fix for X99](https://www.tonymacx86.com/threads/x99-macos-catalina-10-15-2-kernel-patches.288451/)
-
+- [Deskscreen](https://github.com/pavlobu/deskreen)
